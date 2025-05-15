@@ -67,8 +67,16 @@ class DoubleLinkedList
         newNode->prev = current;
 
         if (current->next != NULL)
-
-
+            current->next->prev = newNode;
+        current->next = newNode; 
 
     }
+
+    void hapus()
+    {
+        
+    }
+
+
+
 };

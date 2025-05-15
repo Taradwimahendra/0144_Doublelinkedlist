@@ -142,4 +142,9 @@ class DoubleLinkedList
         }
     }
 
+     void revtraverse()
+     {
+        
+     }
+
 };

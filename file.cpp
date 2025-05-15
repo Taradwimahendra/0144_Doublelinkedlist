@@ -90,6 +90,12 @@ class DoubleLinkedList
         {
             current = current->next;
         }
+
+        if (current == NULL)
+        {
+            cout << "Record not found" << endl;
+            return;
+        }
     }
 
 

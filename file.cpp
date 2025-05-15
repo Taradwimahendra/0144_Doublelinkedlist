@@ -128,6 +128,10 @@ class DoubleLinkedList
         }
 
         Node *currentNode =  START;
+
+        
+        cout << "\nRecord in ascending order of roll number are:\n";
+        int i = 0;
     }
 
 };

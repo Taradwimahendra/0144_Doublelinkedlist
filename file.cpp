@@ -126,6 +126,8 @@ class DoubleLinkedList
             cout << "\nList is empty" << endl;
             return;
         }
+
+        Node *currentNode =  START;
     }
 
 };

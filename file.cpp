@@ -79,6 +79,8 @@ class DoubleLinkedList
             cout << "\nList is empty" << endl;
             return;
         }
+
+        cout << "\nMasukkan NIM yang akan didelete";
     }
 
 

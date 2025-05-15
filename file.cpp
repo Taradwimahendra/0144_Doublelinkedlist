@@ -157,6 +157,8 @@ class DoubleLinkedList
             currentNode = currentNode->next;
             i++;
         }
+
+        cout << "\nRecord in descending order of roll number are :\n ";
      }
 
 };

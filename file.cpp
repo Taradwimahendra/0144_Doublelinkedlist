@@ -12,5 +12,5 @@ class Node
 
 class DoubleLinkedList
 {
-
+    private:
 };

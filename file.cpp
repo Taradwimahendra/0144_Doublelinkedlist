@@ -100,10 +100,15 @@ class DoubleLinkedList
         if (current == START)
         {
             START = current->next; 
+            if (START != NULL)
+            {
+                START->prev = NULL; // Step 2b : START.prev = NULL
+            }
         }
         else
         {
-
+            
+            current->prev->next = current->next;
         } 
     }
 

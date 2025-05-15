@@ -81,6 +81,15 @@ class DoubleLinkedList
         }
 
         cout << "\nMasukkan NIM yang akan didelete";
+        int rollNo;
+        cin >> rollNo;
+
+        Node *current = START;
+
+        while (current != NULL && current->noMhs != rollNo)
+        {
+            current = current->next;
+        }
     }
 
 

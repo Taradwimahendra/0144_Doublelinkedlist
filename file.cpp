@@ -168,4 +168,9 @@ class DoubleLinkedList
         }
      }
 
+     void searchData()
+     {
+        
+     }
+
 };

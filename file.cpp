@@ -119,6 +119,9 @@ class DoubleLinkedList
         cout << "Record with roll number" << rollNo << "deleted" << endl;
     }
 
-
+    void traverse()
+    {
+        
+    }
 
 };
